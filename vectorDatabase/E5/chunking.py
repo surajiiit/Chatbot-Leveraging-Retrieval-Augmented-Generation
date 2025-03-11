@@ -68,9 +68,9 @@ def save_chunks(chunks, output_folder, filename_prefix):
         print(f"Saved: {chunk_file}")
 
 # 📂 Define input folders
-pdf_folder = "/fab3/btech/2022/suraj.yadav22b/RAG/1. Vector/pdf"
-txt_folder = "/fab3/btech/2022/suraj.yadav22b/RAG/1. Vector/finaltxt"
-output_folder = "/fab3/btech/2022/suraj.yadav22b/RAG/1. Vector/chunks"
+pdf_folder = "Enter_Pdf_Folder_path"
+txt_folder = "Enter_txt_folder_path"
+output_folder = "Output_folder"
 
 # 📖 Load text and PDFs
 txt_documents = load_text_files(txt_folder)
