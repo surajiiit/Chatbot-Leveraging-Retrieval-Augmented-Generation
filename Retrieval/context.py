@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModel
 
 # ----- CONFIGURATION -----
 EMBEDDING_MODEL = "nomic-ai/nomic-embed-text-v2-moe"
-PINECONE_API_KEY = "pcsk_3BS6P3_3HZjBexGdejmkwCGaBDeNoG69YtqTEK2Vh3ezdFpJnK4rMdJnzCUUfELYDd7eBo"  # Replace with your actual API key
+PINECONE_API_KEY = "#"  # Replace with your actual API key
 INDEX_NAME = "rag-nomic"
 TOP_K = 5  # Number of top chunks to retrieve
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
